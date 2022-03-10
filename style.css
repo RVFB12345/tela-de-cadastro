@@ -1,15 +1,14 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
 }
 .box{
-  width: 300px;
+  width: 500px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: white;
-    padding: 25 px;
+    padding: 0 0;
     border-radius: 5px;
 }
 fieldset{
@@ -17,13 +16,14 @@ fieldset{
 }
 .inputBox{
     position: relative;
+    margin-bottom: 35px;
+    margin-top: 20px;
 }
 .inputUser{
     background: none;
     border: none;
     border-bottom: 1px solid #A9A9A9;
     outline: none;
-    color: black;
     font-size: 12px;
     width: 100%;
 }  
@@ -63,4 +63,10 @@ fieldset{
 .has-val.inputUser ~ .focus-input::before {
   width: 100%;
   left: 0px;
+}
+#radio1, #radio2, #radio3, #radio4, #radio5, #radio6, #radio7, #radio8, #radio9{
+    margin-left: 20px;
+}
+#radio10, #radio11, #radio12 {
+    margin-left: 20px;
 }
