@@ -5,9 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>lista de saída</title>
+    <title>Cadastro</title>
 </head>
-<body>
+<body id="body" onclick="toggleBody()">
+   <header id="header">
+    <a id="logo" href="">InternOut</a>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false" onclick="toggleMenu()">Menu
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li><a href="/">Contato</a></li>
+        <li><a href="/">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
     <div class = "box">
         <form action="">
             <fieldset>
@@ -83,7 +95,7 @@
                         
                        </div>
                     </div>
-                    <input type="submit" name="submit" id="submit">
+                    <input type="submit" value="Cadastrar" id="btn-cadastrar">
                    
             </fieldset>
         </form>
